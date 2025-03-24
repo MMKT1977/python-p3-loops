@@ -11,7 +11,9 @@ happy_new_year()
 
 def square_integers(int_list):
     # code goes here!
-    pass
+    squared_list = [num ** 2 for num in int_list]
+    return squared_list
+square_integers([1,2,3,4,5])
 
 def fizzbuzz():
     # code goes here!
